@@ -46,12 +46,12 @@ class LoginActivity : Activity() {
                             if((nick.text.toString()==users[count]) && (pasw.text.toString()==pass[count])){
                                 val log = Intent(this@LoginActivity,ListActivity::class.java)
                                 log.putExtra("user",users[count])
-                                count=users.size
                                 finish()
+                                count=users.size
                                 startActivity(log)
                             }
-                            else{
-                                Toast.makeText(this@LoginActivity, "Usuario o contraseña incorrecta", Toast.LENGTH_LONG).show()
+                            else if((nick.text.toString()!=users[count]) || (pasw.text.toString()!=pass[count])){
+                                //Toast.makeText(this@LoginActivity, "Usuario o contraseña incorrecta", Toast.LENGTH_LONG).show()
                                 count+=1
                             }
 
