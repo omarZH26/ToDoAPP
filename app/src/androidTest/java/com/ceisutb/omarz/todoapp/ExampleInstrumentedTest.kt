@@ -1,4 +1,4 @@
-package com.example.omarz.todoapp
+package com.ceisutb.omarz.todoapp
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

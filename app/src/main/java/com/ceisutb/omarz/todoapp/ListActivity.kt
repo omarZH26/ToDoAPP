@@ -1,4 +1,4 @@
-package com.example.omarz.todoapp
+package com.ceisutb.omarz.todoapp
 
 import android.app.Activity
 import android.os.Bundle

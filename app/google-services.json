@@ -8,6 +8,37 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:472938961839:android:16fbc91e572dcbe6",
+        "android_client_info": {
+          "package_name": "com.ceisutb.omarz.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472938961839-g0ifqv9eqn29jpd2dodsb2c18aqgkhv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9OChfvUCDIphlmfZqqaReRxGy515sCks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:472938961839:android:613711bccb411fc9",
         "android_client_info": {
           "package_name": "com.example.omarz.todoapp"

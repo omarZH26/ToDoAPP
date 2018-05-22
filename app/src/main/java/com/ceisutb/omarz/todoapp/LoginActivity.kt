@@ -1,10 +1,9 @@
-package com.example.omarz.todoapp
+package com.ceisutb.omarz.todoapp
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
-import android.widget.Toast
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
